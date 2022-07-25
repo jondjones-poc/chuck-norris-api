@@ -1,2 +1,2 @@
-- name: Lighthouse Audit
-  uses: jakejarvis/lighthouse-action@v0.3.2
+- name: Lighthouse Check
+  uses: foo-software/lighthouse-check-action@v9.0.0
