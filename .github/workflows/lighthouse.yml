@@ -6,12 +6,9 @@ on:
 
 jobs:
   lighthouse:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Run Lighthouse
-      uses: ./
-      with:
+    uses: ./.github/workflows/lighthouse.yml
+    name: Run Lighthouse
+    with:
         device: all
         urls: 'https://chuck-norris-api.netlify.app/'
         tag: GitHub Action (Foo API Test)
