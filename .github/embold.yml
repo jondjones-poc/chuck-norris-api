@@ -1,0 +1,2 @@
+- name: Embold Github Actions
+  uses: embold/github-action-docker@v0.2
