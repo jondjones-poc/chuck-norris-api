@@ -1,3 +1,7 @@
 [build]
   command = "npm run build"
   functions = "dist-functions"
+
+[[edge_functions]]
+  path = "/chuck"
+  function = "chucknorris"

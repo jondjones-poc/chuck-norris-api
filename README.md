@@ -1,12 +1,14 @@
 # Chuck Norris API - By Jon D Jones 💥
 
-Call this API using the chuck norris API.  The API is hosted in Netlify as a serverless function.    Uses:
+Call this API using the chuck norris API.  The API is hosted in Netlify as both en edge function and a serverless function.    Uses:
 
-- Node-fetch
-- Encoding
 - netlify-lambda
 
-**API URL**: [https://chuck-norris-api.netlify.app/.netlify/functions/chuck-norris](https://chuck-norris-api.netlify.app/.netlify/functions/chuck-norris)
+**Edge API URL**: [https://chuck-norris-api.netlify.app/chuck](https://chuck-norris-api.netlify.app/chuck)
+
+**Serverless API URL**: [https://chuck-norris-api.netlify.app/.netlify/functions/serverless-chuck](https://chuck-norris-api.netlify.app/.netlify/functions/serverless-chuck)
+
+**DEV URL**: [http://localhost:8888/chuck](http://localhost:8888/chuck)
 
 The chuck norris API the function is calling can be found here: [https://api.chucknorris.io](https://api.chucknorris.io)
 
