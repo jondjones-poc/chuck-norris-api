@@ -8,14 +8,14 @@ exports.handler = async (event, context) => {
     .then((response) => response.json())
     .then((data) => ({
         statusCode: 200,
-        headers: { 
+        headers: {
             'content-type': 'application/json',
             'Access-Control-Allow-Origin': "*"
         },
         body: JSON.stringify(data)
     }))
-    .catch(() => ({ 
-        statusCode: response.status, 
-        body: response.statusText  
+    .catch(() => ({
+        statusCode: response.status,
+        body: response.statusText
     }));
 };
